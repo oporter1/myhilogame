@@ -1,5 +1,12 @@
-This is the random number:<%=cookies[:randomnumber]%>
-</br>
-This is the result:  <%=@results_string%>
-</br>
-Your guess is: <%=@guess%>
+<%=stylesheet_link_tag "stylesheet.css"%>
+<link href='https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300|Shadows+Into+Light' rel='stylesheet' type='text/css'/>
+
+
+<h1>Hi/Lo Game</h1>
+<body>
+  The secret number is: <%=cookies[:randomnumber]%>
+  </br>
+  Your guess is:  <%=@results_string%>
+  </br>
+  The number you guessed is: <%=@guess%>
+</body>
